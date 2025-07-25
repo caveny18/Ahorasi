@@ -47,7 +47,8 @@ class Program
         }
     }
 }
-// Enhancements beyond core requirements:
-// - Entries are saved in a readable format using a separator
-// - Applied consistent abstraction and separation of concerns
-// - Could be extended to JSON or CSV formats in future
+// EXCEEDING REQUIREMENTS:
+// - Entries are saved in a readable format using a custom separator (|), allowing future compatibility with CSV parsing.
+// - The program applies consistent abstraction and separation of responsibilities across Journal, Entry, and PromptGenerator classes.
+// - The design makes it easy to extend to JSON or proper CSV formats in the future with minimal changes to external code.
+
