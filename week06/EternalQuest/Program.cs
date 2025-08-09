@@ -2,8 +2,16 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello World! This is the EternalQuest Project.");
+        var manager = new GoalManager();
+        manager.Run();
     }
 }
+
+/*
+EXCEEDS REQUIREMENTS:
+- Added simple gamification: LEVEL = 1 + (Score / 1000).
+- Clean CSV save/load for all goal types (score + progress).
+- Strong OOP: abstract base + overrides + encapsulation.
+*/
